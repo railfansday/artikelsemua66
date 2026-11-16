@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Report: The paradox of AI safety</title>
+    <meta name="description" content="As a child, I dreamed of understanding the universe. That dream eventually led me to physics, and later, somewhat unexpectedly, to artificial intelligence.">
+    <link rel="canonical" href="https://railfansday.github.io/artikelsemua66/artikel/tech-report-the-paradox-of-ai-safety-100.html">
+    <meta property="og:title" content="Tech Report: The paradox of AI safety">
+    <meta property="og:description" content="As a child, I dreamed of understanding the universe. That dream eventually led me to physics, and later, somewhat unexpectedly, to artificial intelligence.">
+    <meta property="og:image" content="https://media.thenextweb.com/2026/11/dyssonance-belief-graph-reasoning-dashboard.jpg">
+    <meta property="og:url" content="https://railfansday.github.io/artikelsemua66/artikel/tech-report-the-paradox-of-ai-safety-100.html">
+    <meta property="og:type" content="article">
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Tech Report: The paradox of AI safety", "image": ["https://media.thenextweb.com/2026/11/dyssonance-belief-graph-reasoning-dashboard.jpg"], "datePublished": "2026-11-16T10:39:16+00:00", "dateModified": "2026-11-16T13:25:41.425865", "author": {"@type": "Person", "name": "Global News Desk Editor"}, "publisher": {"@type": "NewsMediaOrganization", "name": "Global News Desk", "logo": {"@type": "ImageObject", "url": "https://railfansday.github.io/artikelsemua66/favicon.ico"}}, "mainEntityOfPage": {"@type": "WebPage", "@id": "https://railfansday.github.io/artikelsemua66/artikel/tech-report-the-paradox-of-ai-safety-100.html"}}</script>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+            --badge-bg: #eff6ff;
+            --badge-text: #1d4ed8;
+        }
+        body.dark-mode {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-main: #f1f5f9;
+            --text-muted: #94a3b8;
+            --border: #334155;
+            --badge-bg: #1e3a8a;
+            --badge-text: #93c5fd;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 20px;
+            line-height: 1.8;
+        }
+        .article-wrapper {
+            max-width: 840px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 32px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+        }
+        .top-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 16px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid var(--border);
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .back-link {
+            text-decoration: none;
+            color: var(--primary);
+            font-weight: 700;
+            font-size: 14px;
+        }
+        .cat-badge {
+            background: var(--badge-bg);
+            color: var(--badge-text);
+            font-size: 12px;
+            font-weight: 700;
+            padding: 4px 10px;
+            border-radius: 6px;
+        }
+        h1 {
+            font-size: 28px;
+            line-height: 1.35;
+            margin: 10px 0 14px 0;
+        }
+        .meta-line {
+            font-size: 13px;
+            color: var(--text-muted);
+            margin-bottom: 20px;
+        }
+        .ctrl-btn {
+            background: var(--bg-color);
+            color: var(--text-main);
+            border: 1px solid var(--border);
+            padding: 6px 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        @media (max-width: 600px) {
+            body { padding: 0; }
+            .article-wrapper { border-radius: 0; padding: 20px; }
+            h1 { font-size: 22px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="article-wrapper">
+        <div class="top-nav">
+            <a href="../index.html" class="back-link">&larr; Back to Portal Home</a>
+            <div style="display:flex; gap:8px; align-items:center;">
+                <span class="cat-badge">AI & Tech</span>
+                <span class="cat-badge" style="background:#fef3c7; color:#d97706;">⚖️ Neutral</span>
+                <button class="ctrl-btn" onclick="document.body.classList.toggle('dark-mode')">🌙 Dark Mode</button>
+            </div>
+        </div>
+        <h1>Tech Report: The paradox of AI safety</h1>
+        <div class="meta-line">🌐 Source: <strong>Thenextweb</strong> &bull; 📅 16 Nov 2026 &bull; ⏱️ 4 min read (881 words, 📚 Deep Dive)</div>
+        
+        <div class="tldr-box" style="background: rgba(37, 99, 235, 0.08); border-left: 4px solid #2563eb; padding: 14px 18px; border-radius: 8px; margin: 18px 0;">
+            <div style="font-weight: 700; margin-bottom: 8px; color: #2563eb; font-size: 14px;">💡 Key Takeaways</div>
+            <ul style="margin: 0; padding-left: 18px; font-size: 14px; line-height: 1.6;"><li style='margin-bottom:6px;'>As a child, I dreamed of understanding the universe.</li><li style='margin-bottom:6px;'>Recent findings suggest that at Google DeepMind, I worked alongside some of the most brilliant and ambitious researchers in the world.</li><li style='margin-bottom:6px;'>As the person responsible for making some of the most sensitive decisions about the data we would train Gemini on, I couldn’t ignore those questions.</li></ul>
+        </div>
+        
+        
+        <div style="display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin:12px 0 18px 0; padding:10px 14px; border:1px solid var(--border, #e2e8f0); border-radius:8px; font-size:13px;">
+            <strong style="color:var(--text-muted, #64748b);">📑 Quick Jump:</strong>
+            <a href="#sec-start-100"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">1. Overview</a>
+            <span style="color:var(--text-muted, #64748b);">•</span>
+            <a href="#sec-mid-100"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">2. Key Details</a>
+            <span style="color:var(--text-muted, #64748b);">•</span>
+            <a href="#sec-end-100"  style="color:var(--primary, #2563eb); text-decoration:none; font-weight:600;">3. Closing Notes</a>
+        </div>
+        
+<div style="text-align:center; margin-bottom:20px;"><img alt="Tech Report: The paradox of AI safety" loading="lazy" src="https://media.thenextweb.com/2026/11/dyssonance-belief-graph-reasoning-dashboard.jpg" style="max-width:100%; height:auto; border-radius:8px;"/></div>
+<div style="text-align:center; margin:20px 0;">
+<script type="text/javascript">
+        atOptions = {
+            'key' : 'f9e40eb3b3cd05f1038aac7b36b33ad2',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+        };
+    </script>
+<script src="https://upholdbrilliancerecast.com/f9e40eb3b3cd05f1038aac7b36b33ad2/invoke.js" type="text/javascript"></script>
+</div>
+<div class="article-body" style="line-height: 1.8;">
+<p id="sec-start-100">As a child, I dreamed of understanding the universe. That dream eventually led me to physics, and later, somewhat unexpectedly, to artificial intelligence. I promptly found that AI offered the same intellectual thrill, along with an entirely upcoming mystery to explore: intelligence itself. The challenge got me hooked. What got me to stay was the growing discomfort around the way we were building it.</p>
+<p>Recent findings suggest that at Google DeepMind, I worked alongside some of the most brilliant and ambitious researchers in the world. Yet, I could never quite understand how so many could be so absorbed in improving the models without ever questioning what we were actually building. It felt like way too few people truly cared what would happen once people started using them.</p>
+<p>As the person responsible for making some of the most sensitive decisions about the data we would train Gemini on, I couldn’t ignore those questions. Besides, they rarely came with a straightforward answer. I took that responsibility so seriously that it often kept me up at night. In such a high-stakes environment, I obviously knew there was no guarantee my voice would be heard; still, I hoped being on the inside would allow me to make a difference.</p>
+<p>In a recent development, when that hope vanished, the weight of a responsibility I could no longer meaningfully influence became too much to bear. I knew I couldn’t stay. Yet I left with a different fear: that one day, I would watch the consequences unfold from the outside, and perhaps regret having walked away.</p>
+<p>It didn’t take long for my fears to feel justified. Leaving gave me the freedom to question the assumptions I had worked within. Having contributed to building some of the most powerful LLMs, I knew firsthand the limitations of how they learned from data. I wanted to go back to first principles instead of building yet another, better LLM, or tools to patch its weaknesses.</p>
+<p>This is why I decided to start Dyssonance.</p>
+<p>Today’s AI is good at remembering information. But remembering isn’t the same as understanding.</p>
+<p>AI systems like ChatGPT, Claude and Gemini can process enormous amounts of information, answer complex questions, and carry on conversations. Yet they still struggle with something fundamental: making sense of conflicting information, recognizing when they’re wrong, and continuously updating what they understand.</p>
+<p>We believe the next substantial breakthrough in AI won’t come from giving machines more information or larger memories. It will come from teaching them how to handle ambiguous situations.</p>
+<p>Imagine reading dozens of books but never connecting the ideas, questioning contradictions, or changing your opinions when you learn something new.</p>
+<p>It’s one of the most significant limitations we see in AI today.</p>
+<p>True intelligence isn’t just about collecting facts. It’s about understanding how those facts fit together, recognizing when something doesn’t make sense, and adjusting your thinking as upcoming information becomes available.</p>
+<p>AI needs to move beyond remembering more to understanding better.</p>
+<p>According to recent reports, today’s AI is largely built around language. It learns patterns in words and uses them to generate responses.</p>
+<p>But communicating an idea and actually understanding it are two different things.</p>
+<p>We’ve taken a different approach to AI: building a system that develops and continuously refines its own understanding of information; a common-sense reasoning engine.</p>
+<p>Instead of simply storing facts, these systems would maintain evolving interpretations that can change as new evidence emerges.</p>
+<p>Think of it as the difference between memorizing the answers to a test and truly understanding the subject.</p>
+<p>Some of our greatest discoveries begin when something doesn’t add up.</p>
+<p id="sec-mid-100">Scientists question unexpected results. Detectives investigate conflicting clues. Entrepreneurs recognize problems others have overlooked.</p>
+<p>We believe intelligence works much the same way.</p>
+<p>When new information conflicts with what we think we know, that contradiction creates an opportunity to learn.</p>
+<p>For the first time, AI now has the ability to call out these dissonances.</p>
+<p>Rather than ignoring contradictions or simply storing more information, AI should actively work to resolve them.</p>
+<p>The ability to recognize what doesn’t make sense, and figure out why, is the very definition of intelligence.</p>
+<p>Our vision goes beyond making AI better at answering questions.</p>
+<p>We want to help build the underlying technology that allows AI systems to reason, learn, adapt, and develop a more consistent interpretation of the world.</p>
+<p>Think of it as creating a foundation that different AI capabilities can share, rather than asking one system to do everything.</p>
+<p>With this approach, AI could become more adaptable, its reasoning easier to evaluate, and its capabilities easier to improve and combine.</p>
+<p>Dyssonance exists to rethink the foundations of artificial intelligence.</p>
+<p>We believe the future of AI isn’t simply about bigger models, faster answers, or more powerful memory.</p>
+<p>It’s about building systems that can continually question, learn, adapt, and make better sense of the world.</p>
+<p>The future of AI isn’t about remembering more. It’s about understanding better.</p>
+<p>Sources indicate that contributed by Dr. Jennifer Prendki, PhD.</p>
+<p>Get the most vital tech news in your inbox each week.</p>
+<p>It has been revealed that thanks! Check your inbox to confirm your subscription.</p>
+<p>By subscribing you agree to our Privacy Statement.</p>
+<p id="sec-end-100">It has been revealed that contributed article. Not produced by the TNW newsroom and does not reflect the editorial stance of TNW.</p>
+<p style="margin-top: 25px;">
+<a href="https://thenextweb.com/news/paradox-of-ai-safety-dyssonance-google-deepmind" rel="nofollow noopener" style="color: #0d6efd; text-decoration: none; font-weight: bold;" target="_blank">
+                        → Read original article
+                    </a>
+</p>
+</div>
+<div style="text-align:center; margin:20px 0;">
+<script type="text/javascript">
+        atOptions = {
+            'key' : 'f9e40eb3b3cd05f1038aac7b36b33ad2',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+        };
+    </script>
+<script src="https://upholdbrilliancerecast.com/f9e40eb3b3cd05f1038aac7b36b33ad2/invoke.js" type="text/javascript"></script>
+</div>
+
+        
+    <div style="margin-top: 28px; padding-top: 18px; border-top: 1px dashed var(--border, #e2e8f0);">
+        <h3 style="font-size: 16px; margin: 0 0 12px 0; color: var(--text-main, #1e293b);">🔗 Related Articles</h3>
+        
+        <a href="tech-report-metas-horizon-looks-to-become-meta-vr-and-include-3d--635.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #635. Tech Report: Meta’s Horizon+ looks to become Meta VR+ and include 3D movies
+        </a>
+        
+        <a href="tech-report-flight-status-tracker-how-to-check-online-after-faa-g-597.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #597. Tech Report: Flight status tracker: How to check online after FAA grounds all flights
+        </a>
+        
+        <a href="tech-report-nyt-connections-hints-today-meanings-for-each-word-fo-571.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #571. Tech Report: NYT Connections hints today: Meanings for each word for Nov. 14, 2026
+        </a>
+        
+        <a href="tech-report-moon-phase-today-what-the-moon-will-look-like-on-nove-562.html" style="display:block; width:100%; box-sizing:border-box; text-align:left; text-decoration:none; background:transparent; border:1px solid var(--border, #e2e8f0); padding:10px 14px; border-radius:8px; margin-bottom:8px; color:var(--text-main, #1e293b); font-size:14px; font-weight:600; transition:0.2s;">
+            📰 #562. Tech Report: Moon phase today: What the Moon will look like on November 14, 2026
+        </a>
+        
+    </div>
+    
+    </div>
+</body>
+</html>
