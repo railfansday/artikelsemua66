@@ -4,8 +4,14 @@
     <title>Portal Berita - EV & Auto</title>
     <link>https://railfansday.github.io/artikelsemua66/</link>
     <description>Curated news feed for EV & Auto.</description>
-    <lastBuildDate>Sat, 21 Nov 2026 22:52:06 -0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 05:33:06 -0000</lastBuildDate>
     
+            <item>
+                <title>Your Wear OS smartwatch just got a fresh way to save battery life</title>
+                <link>https://railfansday.github.io/artikelsemua66/artikel/your-wear-os-smartwatch-just-got-a-fresh-way-to-save-battery-life-2754.html</link>
+                <guid>https://railfansday.github.io/artikelsemua66/artikel/your-wear-os-smartwatch-just-got-a-fresh-way-to-save-battery-life-2754.html</guid>
+                <description>Some of the most popular Android smartwatches just got a battery-saving patch. Google released an updated version of Google Play Services on Tuesday that can help extend the battery life of a Wear OS smartwatch. Sources indicate that the v26.45 patch concerns location tracking du...</description>
+            </item>
             <item>
                 <title>Latest Update: Tesla's assisted driving system gets the green light for rollout in Italy</title>
                 <link>https://railfansday.github.io/artikelsemua66/artikel/latest-update-teslas-assisted-driving-system-gets-the-green-light-2719.html</link>
@@ -77,12 +83,6 @@
                 <link>https://railfansday.github.io/artikelsemua66/artikel/latest-update-ford-designed-its-fathom-ev-battery-pack-to-bend-in-1780.html</link>
                 <guid>https://railfansday.github.io/artikelsemua66/artikel/latest-update-ford-designed-its-fathom-ev-battery-pack-to-bend-in-1780.html</guid>
                 <description>Ford’s upcoming LFP battery pack isn’t a fragile electric car component that needs protection. During my visit this week to the automaker’s newly operational battery plant, engineers proudly indicated me a video of the battery being crash-tested, the shell and the prismatic cells...</description>
-            </item>
-            <item>
-                <title>Your Wear OS smartwatch just got a new way to save battery life</title>
-                <link>https://railfansday.github.io/artikelsemua66/artikel/your-wear-os-smartwatch-just-got-a-new-way-to-save-battery-life-1638.html</link>
-                <guid>https://railfansday.github.io/artikelsemua66/artikel/your-wear-os-smartwatch-just-got-a-new-way-to-save-battery-life-1638.html</guid>
-                <description>Some of the most popular Android smartwatches just got a battery-saving revision. Google released an updated version of Google Play Services on Tuesday that can help extend the battery life of a Wear OS smartwatch. The v26.45 upgrade concerns location tracking during outdoor work...</description>
             </item>
 </channel>
 </rss>
