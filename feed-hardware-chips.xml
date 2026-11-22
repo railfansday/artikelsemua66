@@ -4,8 +4,14 @@
     <title>Portal Berita - Hardware & Chips</title>
     <link>https://railfansday.github.io/artikelsemua66/</link>
     <description>Curated news feed for Hardware & Chips.</description>
-    <lastBuildDate>Sun, 22 Nov 2026 14:13:51 -0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 23:20:56 -0000</lastBuildDate>
     
+            <item>
+                <title>Tech Report: How to safely clean your PC's GPU to avoid damaging it in the process</title>
+                <link>https://railfansday.github.io/artikelsemua66/artikel/tech-report-how-to-safely-clean-your-pcs-gpu-to-avoid-damaging-it-2824.html</link>
+                <guid>https://railfansday.github.io/artikelsemua66/artikel/tech-report-how-to-safely-clean-your-pcs-gpu-to-avoid-damaging-it-2824.html</guid>
+                <description>Removing and cleaning a GPU can be intimidating, but it's actually pretty simple. Sources indicate that like any PC component, your graphics processing unit collects dust over time. In turn, that can affect its thermal performance, causing your card to run at lower clock speeds a...</description>
+            </item>
             <item>
                 <title>Asus gaming monitors are marked down for Black Friday — save up to $400 at Amazon</title>
                 <link>https://railfansday.github.io/artikelsemua66/artikel/asus-gaming-monitors-are-marked-down-for-black-friday-save-up-to--2778.html</link>
@@ -89,12 +95,6 @@
                 <link>https://railfansday.github.io/artikelsemua66/artikel/which-macbook-to-buy-2026-heres-which-laptop-is-right-for-you-2301.html</link>
                 <guid>https://railfansday.github.io/artikelsemua66/artikel/which-macbook-to-buy-2026-heres-which-laptop-is-right-for-you-2301.html</guid>
                 <description>According to recent reports, macBooks went to some adventurous newly introduced places this year. The MacBook Neo pushes the boundaries of how cheap and low-powered a MacBook could go, while the OLED MacBook Pro takes it in the opposite direction. While the midyear price hike put...</description>
-            </item>
-            <item>
-                <title>California AG subpoenas Nvidia over worries about Huang’s ties with China</title>
-                <link>https://railfansday.github.io/artikelsemua66/artikel/california-ag-subpoenas-nvidia-over-worries-about-huangs-ties-wit-2217.html</link>
-                <guid>https://railfansday.github.io/artikelsemua66/artikel/california-ag-subpoenas-nvidia-over-worries-about-huangs-ties-wit-2217.html</guid>
-                <description>California’s Attorney General Rob Bonta on Thursday evening noted the state has served an investigative subpoena to Nvidia following news of former CEO Jensen Huang’s affair with a woman who the U.S. government believes is a Chinese spy. The state is investigating the company to ...</description>
             </item>
 </channel>
 </rss>
